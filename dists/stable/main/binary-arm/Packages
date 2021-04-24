@@ -9,9 +9,9 @@ Priority: extra
 Section: main
 Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.2.2_all.deb
 Size: 830
-SHA256: dce9f20b6c2594cda282289a65032b3dd52bbae8d04e2818ba6320e7464f7719
-SHA1: 5d2debe57b7197f67bb930f95a325de409e60d20
-MD5sum: 07d7711c66c2d84d524246822666e89c
+SHA256: 0d6612f9254450143fff98d237ea64564955025e704a6126fd3a898412883d48
+SHA1: 08117e57a0a59165c657189219874e58599d848f
+MD5sum: ac8022fb86ea65cade7b089a1890dd18
 Description: APT transport for anonymous package downloads via Tor
 
 Package: ca-certificates
@@ -80,4 +80,84 @@ SHA256: 73411c9617dab95e1cca6a6e37ff7cd966fae15bd9e97112c2e81776d263d7ba
 SHA1: 489ea6cbbd2a0155fa83363c1eef9d37dce856b2
 MD5sum: 548c60681b079ccf8589bc88a162f058
 Description: Basic system tools for Termux
+
+Package: ttf-dejavu
+Architecture: all
+Installed-Size: 10108
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 2.37-8
+Homepage: https://dejavu-fonts.github.io/
+Priority: extra
+Section: main
+Filename: pool/main/t/ttf-dejavu/ttf-dejavu_2.37-8_all.deb
+Size: 2473062
+SHA256: ec0da089753fe6a9cc7d8287235ed172c41875c895ba6a02095830bcbc0615d0
+SHA1: 4d62c75c4bf56216071491b1bcf1019187a1b41e
+MD5sum: e4ca9043fd08d313dd76db1043489029
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+
+Package: xcb-proto
+Architecture: all
+Installed-Size: 1024
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.14.1
+Homepage: https://xcb.freedesktop.org/
+Conflicts: xcbproto
+Replaces: xcbproto
+Priority: extra
+Section: main
+Filename: pool/main/x/xcb-proto/xcb-proto_1.14.1_all.deb
+Size: 103118
+SHA256: d93fb90f4bcc29e3193f071b1fce6dec7a781a4d7ca3acfdd686050d24295707
+SHA1: 95387c97400219175c3b2f18486ad7aa4bc3d726
+MD5sum: 6fd6d1cf89868ee90daa0ce06ff345b4
+Description: XML-XCB protocol descriptions
+
+Package: xorg-util-macros
+Architecture: all
+Installed-Size: 148
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.19.3
+Homepage: https://xorg.freedesktop.org/
+Priority: extra
+Section: main
+Filename: pool/main/x/xorg-util-macros/xorg-util-macros_1.19.3_all.deb
+Size: 21858
+SHA256: ec68f9f120676dc4b358ef480e131aca679502f78483949b3f8dfe409d82e11b
+SHA1: 29cd6da5df6833dc2c820b4b8540aa1dd9e00945
+MD5sum: 56b8375c3cf12c5fcfc1c9e46166f8ea
+Description: X.Org Autotools macros
+
+Package: xorgproto
+Architecture: all
+Installed-Size: 1904
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 2020.1-1
+Homepage: https://xorg.freedesktop.org/
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Replaces: x11-proto
+Priority: extra
+Section: main
+Filename: pool/main/x/xorgproto/xorgproto_2020.1-1_all.deb
+Size: 176502
+SHA256: 124afa07a1ca7f3687bb1a81c9aa008b44decf0957c009cc0e3781413e6c12cc
+SHA1: 2e3cb5722b0d9057e0d940b561eac546ee9ebb70
+MD5sum: 567adb4dcae048a15084b48e1493e20d
+Description: X.Org X11 Protocol headers
+
+Package: xtrans
+Architecture: all
+Installed-Size: 324
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.4.0-8
+Homepage: https://xorg.freedesktop.org/
+Priority: extra
+Section: main
+Filename: pool/main/x/xtrans/xtrans_1.4.0-8_all.deb
+Size: 43042
+SHA256: a3a0f8247abc42e8d20a93f22e604f8e9b731d35236d66a0768fa8cd04f15735
+SHA1: ce3f4676098727c5e8d619a96469fe3bbba8b625
+MD5sum: f135d999cac5d6caa483a8930365a52e
+Description: X transport library
 
