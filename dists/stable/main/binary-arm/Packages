@@ -1,0 +1,83 @@
+Package: apt-transport-tor
+Architecture: all
+Installed-Size: 36
+Maintainer: @termux
+Version: 2.2.2
+Homepage: https://packages.debian.org/apt
+Depends: tor, apt (= 2.2.2)
+Priority: extra
+Section: main
+Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.2.2_all.deb
+Size: 830
+SHA256: dce9f20b6c2594cda282289a65032b3dd52bbae8d04e2818ba6320e7464f7719
+SHA1: 5d2debe57b7197f67bb930f95a325de409e60d20
+MD5sum: 07d7711c66c2d84d524246822666e89c
+Description: APT transport for anonymous package downloads via Tor
+
+Package: ca-certificates
+Architecture: all
+Installed-Size: 248
+Maintainer: @termux
+Version: 20210413-2
+Homepage: https://curl.se/docs/caextract.html
+Priority: extra
+Section: main
+Filename: pool/main/c/ca-certificates/ca-certificates_20210413-2_all.deb
+Size: 113380
+SHA256: 7264038b0e79e584b5619d9f65234c17cef887749c6166604797b315ede9e8aa
+SHA1: 6a6a918605dbe018e8cf4a3dc4a37f5f634c54c5
+MD5sum: d3fec32592d54538ef7d8dcbc0f04ffd
+Description: Common CA certificates
+
+Package: ca-certificates-java
+Architecture: all
+Installed-Size: 196
+Maintainer: @termux
+Version: 20210413-2
+Homepage: https://curl.se/docs/caextract.html
+Depends: ca-certificates (= 20210413-2)
+Priority: extra
+Section: main
+Filename: pool/main/c/ca-certificates-java/ca-certificates-java_20210413-2_all.deb
+Size: 103026
+SHA256: c117946e0a914936553c90bbfe4a822ee39e8acb166e90747553aa1e025011b4
+SHA1: 14d1f00bbd6fe97f4b72956afe3643ace7af4b0b
+MD5sum: ce10bbd1395feea0d6bbed24c16258e9
+Description: Common CA certificates (java keystore format)
+
+Package: termux-licenses
+Architecture: all
+Installed-Size: 372
+Maintainer: @termux
+Version: 2.0-1
+Homepage: https://termux.com
+Essential: yes
+Priority: extra
+Section: main
+Filename: pool/main/t/termux-licenses/termux-licenses_2.0-1_all.deb
+Size: 52168
+SHA256: 7c08786552806b3e636a7d5e00559b2225eb205eba468f1844c8f567057f4c98
+SHA1: dab717ba78540f443ed310b0886e3b17bd25e327
+MD5sum: 9fcf9342492f9b1109f17025b596303f
+Description: Contains LICENSE files for common licenses
+
+Package: termux-tools
+Architecture: all
+Installed-Size: 144
+Maintainer: @termux
+Version: 0.118
+Homepage: https://termux.com/
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-exec, util-linux, xz-utils, dialog
+Essential: yes
+Conflicts: procps (<< 3.3.15-2)
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Priority: extra
+Section: main
+Filename: pool/main/t/termux-tools/termux-tools_0.118_all.deb
+Size: 12272
+SHA256: 73411c9617dab95e1cca6a6e37ff7cd966fae15bd9e97112c2e81776d263d7ba
+SHA1: 489ea6cbbd2a0155fa83363c1eef9d37dce856b2
+MD5sum: 548c60681b079ccf8589bc88a162f058
+Description: Basic system tools for Termux
+
