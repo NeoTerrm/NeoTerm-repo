@@ -45,6 +45,22 @@ SHA1: 14d1f00bbd6fe97f4b72956afe3643ace7af4b0b
 MD5sum: ce10bbd1395feea0d6bbed24c16258e9
 Description: Common CA certificates (java keystore format)
 
+Package: proot-distro
+Architecture: all
+Installed-Size: 136
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 1.6.2
+Homepage: https://github.com/termux/proot-distro
+Depends: bash, bzip2, coreutils, curl, findutils, gzip, ncurses-utils, proot (>= 5.1.107-32), sed, tar, xz-utils
+Priority: extra
+Section: main
+Filename: pool/main/p/proot-distro/proot-distro_1.6.2_all.deb
+Size: 16402
+SHA256: a3209099e1bfded3b659ab5f186a569f21cd6f81d85541bc6baedbe111f7d442
+SHA1: 23c8a4be6941e9e753ce6768ee722fe25b9fb8ac
+MD5sum: d897078b3366f961a3180617280d85d1
+Description: Termux official utility for managing proot'ed Linux distributions
+
 Package: termux-licenses
 Architecture: all
 Installed-Size: 372
@@ -63,7 +79,7 @@ Description: Contains LICENSE files for common licenses
 
 Package: termux-tools
 Architecture: all
-Installed-Size: 144
+Installed-Size: 152
 Maintainer: @termux
 Version: 0.118
 Homepage: https://termux.com/
@@ -75,10 +91,10 @@ Suggests: termux-api
 Priority: extra
 Section: main
 Filename: pool/main/t/termux-tools/termux-tools_0.118_all.deb
-Size: 12272
-SHA256: 73411c9617dab95e1cca6a6e37ff7cd966fae15bd9e97112c2e81776d263d7ba
-SHA1: 489ea6cbbd2a0155fa83363c1eef9d37dce856b2
-MD5sum: 548c60681b079ccf8589bc88a162f058
+Size: 13968
+SHA256: dd60b1c8f5295fba6ad5bd5115582a982cbb8cabb0dfe8f4bcb8dab03eafb51f
+SHA1: 123b9b9c6a071e4fa5987e76e693656e44dac5f1
+MD5sum: f677244f47171931530f46165d54df58
 Description: Basic system tools for Termux
 
 Package: ttf-dejavu
