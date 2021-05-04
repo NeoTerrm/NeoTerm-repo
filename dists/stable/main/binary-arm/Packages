@@ -61,6 +61,38 @@ SHA1: 23c8a4be6941e9e753ce6768ee722fe25b9fb8ac
 MD5sum: d897078b3366f961a3180617280d85d1
 Description: Termux official utility for managing proot'ed Linux distributions
 
+Package: ruby-ri
+Architecture: all
+Installed-Size: 55084
+Maintainer: @termux
+Version: 3.0.1
+Homepage: https://www.ruby-lang.org/
+Depends: ruby (= 3.0.1)
+Priority: extra
+Section: main
+Filename: pool/main/r/ruby-ri/ruby-ri_3.0.1_all.deb
+Size: 1582876
+SHA256: e43801596d49b11f3b8cc1839e2d32f38cf9e383bc6309cb85690437310a299d
+SHA1: 7b53f1d3e6457cf589137864bb3c50c0a5df6fb7
+MD5sum: 15d06f1c4601b5470ef318ac43ff5e7c
+Description: Ruby documentation index
+
+Package: rust-std-wasm32
+Architecture: all
+Installed-Size: 60124
+Maintainer: Kevin Cotugno @kcotugno
+Version: 1.51.0-3
+Homepage: https://www.rust-lang.org/
+Depends: rust (= 1.51.0-3)
+Priority: extra
+Section: main
+Filename: pool/main/r/rust-std-wasm32/rust-std-wasm32_1.51.0-3_all.deb
+Size: 12765572
+SHA256: 28a87ad4c963879a2a0d9fdc040f2de46fe706ea9c9517160989c9d9aa4d0797
+SHA1: 23dd3869b82e96cb94092deeac17a3f2672769cf
+MD5sum: bedfe648fd7731b63492c54cd5b72deb
+Description: rust std for wasm32-unknown-unknown target
+
 Package: termux-licenses
 Architecture: all
 Installed-Size: 372
@@ -81,7 +113,7 @@ Package: termux-tools
 Architecture: all
 Installed-Size: 152
 Maintainer: @termux
-Version: 0.118
+Version: 0.119
 Homepage: https://termux.com/
 Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-exec, util-linux, xz-utils, dialog
 Essential: yes
@@ -90,11 +122,11 @@ Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
 Suggests: termux-api
 Priority: extra
 Section: main
-Filename: pool/main/t/termux-tools/termux-tools_0.118_all.deb
-Size: 13968
-SHA256: dd60b1c8f5295fba6ad5bd5115582a982cbb8cabb0dfe8f4bcb8dab03eafb51f
-SHA1: 123b9b9c6a071e4fa5987e76e693656e44dac5f1
-MD5sum: f677244f47171931530f46165d54df58
+Filename: pool/main/t/termux-tools/termux-tools_0.119_all.deb
+Size: 13958
+SHA256: e93b41fc95aab73e2be60603c8918d5bb32b794b41ada5299ca433e60a051e7f
+SHA1: 592cdb9448299b5af97582e0384cbac3b365aaa2
+MD5sum: 5b1e481b1132328a0ac7d713fe37c984
 Description: Basic system tools for Termux
 
 Package: ttf-dejavu
