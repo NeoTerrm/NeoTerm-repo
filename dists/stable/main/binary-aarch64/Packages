@@ -391,7 +391,7 @@ Package: dpkg
 Architecture: aarch64
 Installed-Size: 1128
 Maintainer: @termux
-Version: 1.20.7.1-1
+Version: 1.20.9
 Homepage: https://packages.debian.org/dpkg
 Breaks: dpkg-dev
 Depends: bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, tar, xz-utils, zlib
@@ -399,11 +399,11 @@ Essential: yes
 Replaces: dpkg-dev
 Priority: extra
 Section: main
-Filename: pool/main/d/dpkg/dpkg_1.20.7.1-1_aarch64.deb
-Size: 259104
-SHA256: b91e0579e1e4a0f521c638a9f24289ec0e94c7638e3dedc277f16347f1b9ac42
-SHA1: 54d31f73bd777d6cf7eb1d5ca8d6021540e35be5
-MD5sum: d319302d39ce636a47df7c1f357595dd
+Filename: pool/main/d/dpkg/dpkg_1.20.9_aarch64.deb
+Size: 259950
+SHA256: 380802749f7c086a615286dd0be8e82f3a60f2b966f6b2ce5842f983d1a1e83a
+SHA1: dc2296a34d576997ae94294a4a4fff41ce407372
+MD5sum: 592ce514a79f465733f29a737d0ac234
 Description: Debian package management system
 
 Package: findutils
