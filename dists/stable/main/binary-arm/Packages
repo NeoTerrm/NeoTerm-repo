@@ -39,10 +39,10 @@ Depends: tor, apt (= 2.3.3)
 Priority: extra
 Section: main
 Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.3.3_all.deb
-Size: 832
-SHA256: 445c11a16bd2b13ae095d825eaa661186fb51b02f7415e063b46151baa19c18f
-SHA1: add7bd080c2f91dbec28df5a7e338e9b5fa06ee3
-MD5sum: 1eaf6dc9b573ea02058ebc87fbb99e50
+Size: 826
+SHA256: 52e605d78e786aea1096d96830cb0bc0c35d55844da3c51f65893790fb2ae440
+SHA1: f926bf17478750d5219c4679609200ccc49996a1
+MD5sum: cf1a7868a4c9c59f885f0f1c5d5e4129
 Description: APT transport for anonymous package downloads via Tor
 
 Package: asciidoctor
@@ -281,10 +281,10 @@ Homepage: https://curl.se/docs/caextract.html
 Priority: extra
 Section: main
 Filename: pool/main/c/ca-certificates/ca-certificates_20210413-2_all.deb
-Size: 113378
-SHA256: 87ffd8b33542e327b789e73d06ab4ecdecf31553b669dba7ed7d93b35a416ac7
-SHA1: eba40abf59739fd12b7cf3636aeb07a55b153880
-MD5sum: 746d41c63b2c24c589661dcceb8b73e0
+Size: 113370
+SHA256: 65ff673f6d7fc2e9ff131564276c56d6d5922af92c53afc788ac69bac69c4ac2
+SHA1: 414fd463395c5549c53902ad09e324209a065d78
+MD5sum: 2d9a4fd19ccc9b7dc280abad82a9a70e
 Description: Common CA certificates
 
 Package: ca-certificates-java
@@ -297,10 +297,10 @@ Depends: ca-certificates (= 20210413-2)
 Priority: extra
 Section: main
 Filename: pool/main/c/ca-certificates-java/ca-certificates-java_20210413-2_all.deb
-Size: 102950
-SHA256: 75ea092a4fdf6439c15861073c4bff5dd7bd1abdfb2fc973d5538bebd015b566
-SHA1: c03f7bcc2bfe36db0a7bbd07efcbb1d1f5b50d28
-MD5sum: 137bfb6a4f6e8f2474497695ac0634e4
+Size: 102974
+SHA256: cf02a6bcba707c37442906b8ac72c23058ffca1d35301d91b68060c73cf03735
+SHA1: 0dbc2812279b8688dd5d263920ef1bf7a28e5f14
+MD5sum: 8c1f9ae87ebc809c168e74128fa62053
 Description: Common CA certificates (java keystore format)
 
 Package: colordiff
@@ -1058,7 +1058,7 @@ Description: GPG public keys for the official Termux repositories
 
 Package: termux-licenses
 Architecture: all
-Installed-Size: 380
+Installed-Size: 372
 Maintainer: @termux
 Version: 2.0-1
 Homepage: https://termux.com
@@ -1066,10 +1066,10 @@ Essential: yes
 Priority: extra
 Section: main
 Filename: pool/main/t/termux-licenses/termux-licenses_2.0-1_all.deb
-Size: 52154
-SHA256: 1d39112bc15f05fbd57717b155653cf48dd7877df3faf00deb4888ad3ce70ae4
-SHA1: b9ac4a17964fb966d1e6e3560db2d503cd70e7ed
-MD5sum: 3a5cfe85327a1ca218f5839a0dc3c4c1
+Size: 52146
+SHA256: 09776ec8654c9a7f89bbfcc8c37a56245e11305df28bb68828350a1354726750
+SHA1: 9146995ed767be2269b61226930713fee20e1a56
+MD5sum: 445c012db586f699f59e0296d1970171
 Description: Contains LICENSE files for common licenses
 
 Package: termux-services
@@ -1142,17 +1142,17 @@ Description: A su wrapper for Termux
 
 Package: ttf-dejavu
 Architecture: all
-Installed-Size: 10116
+Installed-Size: 10108
 Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
 Version: 2.37-8
 Homepage: https://dejavu-fonts.github.io/
 Priority: extra
 Section: main
 Filename: pool/main/t/ttf-dejavu/ttf-dejavu_2.37-8_all.deb
-Size: 2499248
-SHA256: 0b2c131d09309b40186ff56e9e4b627172acd4262d12cc040e74676bd3876646
-SHA1: 7a0d4cb71548ef96b6ee03c0ea176b27ca1de459
-MD5sum: 779e7415379661b1b7fc88fe51113d73
+Size: 2499820
+SHA256: 77b818c394f4e5e7555ded5140d26b77e0aab14eab0a423f33f4949eb0b832e0
+SHA1: 6c86042afeb81f482e59b013aea8a7ca59b1abb4
+MD5sum: eb3f97314b46239075e9f9e2e5ff4f15
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
 
 Package: unstable-repo
@@ -1220,7 +1220,7 @@ Description: Package repository containing X11 programs and libraries
 
 Package: xcb-proto
 Architecture: all
-Installed-Size: 1032
+Installed-Size: 1024
 Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
 Version: 1.14.1
 Homepage: https://xcb.freedesktop.org/
@@ -1229,30 +1229,30 @@ Replaces: xcbproto
 Priority: extra
 Section: main
 Filename: pool/main/x/xcb-proto/xcb-proto_1.14.1_all.deb
-Size: 103036
-SHA256: eb7dea76b83d4d962648b6f588ca8fc71c7c9ceb15a7a17f3db552d21cbef5b5
-SHA1: c8fc6e2fbe4592c9351f28a4002c1b6f978b1f4f
-MD5sum: 7b52b0a9701355b6c8382a409cbc55d4
+Size: 103034
+SHA256: 3e21039af3fdb02f5109e1b4b360a051fb535b11e3e136a8a335e666aaddf8da
+SHA1: 7dad48c06b19dd95ed8d2d9c4c2d6e12424f10ef
+MD5sum: 5bcd8d9e71f75e0a5bf467ad3345ca2e
 Description: XML-XCB protocol descriptions
 
 Package: xorg-util-macros
 Architecture: all
-Installed-Size: 156
+Installed-Size: 148
 Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
 Version: 1.19.3
 Homepage: https://xorg.freedesktop.org/
 Priority: extra
 Section: main
 Filename: pool/main/x/xorg-util-macros/xorg-util-macros_1.19.3_all.deb
-Size: 21872
-SHA256: 825836227163e0be2b514c0d3b2c3eb0f1b439d2fbdcf4b358cdb5f5c7adfeec
-SHA1: 669795ee3ae6df5e241d09c338a1f5e42152d52c
-MD5sum: c4def5ad015b17a7f65d777e7aec6b4d
+Size: 21862
+SHA256: dc1e81ec015b1943d88e78b651d925238abc90f5b305c825ae58d7ea4844db5d
+SHA1: c2d7f29fee6389b4ac6f92794e593d3c44c4e051
+MD5sum: b016bdda5c804e6e4fda6f3ac447e7eb
 Description: X.Org Autotools macros
 
 Package: xorgproto
 Architecture: all
-Installed-Size: 1916
+Installed-Size: 1904
 Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
 Version: 2020.1-1
 Homepage: https://xorg.freedesktop.org/
@@ -1262,25 +1262,25 @@ Replaces: x11-proto
 Priority: extra
 Section: main
 Filename: pool/main/x/xorgproto/xorgproto_2020.1-1_all.deb
-Size: 176438
-SHA256: 7ba7d2ef5703d96e5251fcbf33327ffbba35f721651da778e55613a0383a7bed
-SHA1: 9454ef52f3c0c4a5a20a794f2518a7c263b1fe07
-MD5sum: 89da0da68b59e4533fde9b6d4d3f15fe
+Size: 176478
+SHA256: 3346ebf8578960c85ec0cdc9abcec24f51bbf6a7bc0b82386011bb0710e74bd9
+SHA1: 081a055992de4678bc0b5d70c1bc36b9417c31c6
+MD5sum: 898d457487883d7dd2784d02b7186a40
 Description: X.Org X11 Protocol headers
 
 Package: xtrans
 Architecture: all
-Installed-Size: 332
+Installed-Size: 324
 Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
 Version: 1.4.0-8
 Homepage: https://xorg.freedesktop.org/
 Priority: extra
 Section: main
 Filename: pool/main/x/xtrans/xtrans_1.4.0-8_all.deb
-Size: 43022
-SHA256: 665d66ef4d1ea7b36df834006f1c56f1d03d41fbd26dcc99c21db78ef902a3ee
-SHA1: 391e0ffda4a3b9adb2caad678860f25171658d62
-MD5sum: ee13864822ddc5c58869ab006417f31c
+Size: 43018
+SHA256: 2cdf6b467540ca2ddd533000c4c592831148a5ae3f29d3bb34e05e3d3ab2a4f7
+SHA1: 30a71b430b8b2e0385aea4f0694f7703a3ca3af7
+MD5sum: a59f224a33d969dd46f92c0b51744d1e
 Description: X transport library
 
 Package: yarn
