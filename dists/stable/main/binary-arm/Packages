@@ -281,10 +281,10 @@ Homepage: https://curl.se/docs/caextract.html
 Priority: extra
 Section: main
 Filename: pool/main/c/ca-certificates/ca-certificates_20210413-2_all.deb
-Size: 113372
-SHA256: 03de3378a1e90284b1c2ef3375ff8757af5457cda5061e5ac80c38e6ef637bb8
-SHA1: 95438d5a867aca128b46adb40ca3aa2efa86afc7
-MD5sum: 17d4a7a93c5259fe5fad573e1dced8d9
+Size: 113378
+SHA256: 87ffd8b33542e327b789e73d06ab4ecdecf31553b669dba7ed7d93b35a416ac7
+SHA1: eba40abf59739fd12b7cf3636aeb07a55b153880
+MD5sum: 746d41c63b2c24c589661dcceb8b73e0
 Description: Common CA certificates
 
 Package: ca-certificates-java
@@ -298,9 +298,9 @@ Priority: extra
 Section: main
 Filename: pool/main/c/ca-certificates-java/ca-certificates-java_20210413-2_all.deb
 Size: 102950
-SHA256: 1c5df9363bb287d9e9c1c81634fcd5a16536537da83e9e851397a710547f1166
-SHA1: e7d78afa3e5cf8d41e09eac71583d60aa6cbfa29
-MD5sum: 7bb5f84bc181b846d011dce0ebdb49e9
+SHA256: 75ea092a4fdf6439c15861073c4bff5dd7bd1abdfb2fc973d5538bebd015b566
+SHA1: c03f7bcc2bfe36db0a7bbd07efcbb1d1f5b50d28
+MD5sum: 137bfb6a4f6e8f2474497695ac0634e4
 Description: Common CA certificates (java keystore format)
 
 Package: colordiff
@@ -1196,10 +1196,10 @@ Homepage: https://www.vim.org
 Priority: extra
 Section: main
 Filename: pool/main/v/vim-runtime/vim-runtime_8.2.2450_all.deb
-Size: 4253990
-SHA256: 8961b3cf74c054fa93aa538b689cf4083f79ba0cb32702a53cfff7c1d40ac632
-SHA1: da8608f259c1f76d16349468409bffecdf624eef
-MD5sum: 5ae7a40902705e6a86ef0160bb791c56
+Size: 4253846
+SHA256: 212565dddebd99c9bff8ead03ce25666820b1f9d44aaf99fadf54f76aaeec0f0
+SHA1: 765da19b9886f6845c41e9141cc0ea8c35c9cbd9
+MD5sum: 4960322b53b5fc1c38a2c2f0e117a36a
 Description: Vi IMproved - Runtime files
 
 Package: x11-repo
