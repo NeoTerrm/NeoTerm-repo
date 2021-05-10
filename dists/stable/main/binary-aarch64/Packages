@@ -1319,10 +1319,10 @@ Homepage: https://curl.se/docs/caextract.html
 Priority: extra
 Section: main
 Filename: pool/main/c/ca-certificates/ca-certificates_20210413-2_all.deb
-Size: 113370
-SHA256: 65ff673f6d7fc2e9ff131564276c56d6d5922af92c53afc788ac69bac69c4ac2
-SHA1: 414fd463395c5549c53902ad09e324209a065d78
-MD5sum: 2d9a4fd19ccc9b7dc280abad82a9a70e
+Size: 113376
+SHA256: f6b06ca9e96993fddb359ce0143f81994e0f42dc93eb14f687287c3f517a226b
+SHA1: 45409167ee8a41c17b34f81ef673abf2a095ab5d
+MD5sum: 147cf8a8cbff19fd36012e9e6306d0e9
 Description: Common CA certificates
 
 Package: ca-certificates-java
@@ -1335,10 +1335,10 @@ Depends: ca-certificates (= 20210413-2)
 Priority: extra
 Section: main
 Filename: pool/main/c/ca-certificates-java/ca-certificates-java_20210413-2_all.deb
-Size: 102974
-SHA256: cf02a6bcba707c37442906b8ac72c23058ffca1d35301d91b68060c73cf03735
-SHA1: 0dbc2812279b8688dd5d263920ef1bf7a28e5f14
-MD5sum: 8c1f9ae87ebc809c168e74128fa62053
+Size: 102952
+SHA256: 45620d9e8f192fde60eb57ed2400679acb3b5da3e872e3ee17b30ca5df88bd27
+SHA1: 3306aa0aeb5c73308d2cfb788bb282996cce9e9c
+MD5sum: 89de6bacdf4b1b61a58cf73200376a3e
 Description: Common CA certificates (java keystore format)
 
 Package: cabextract
@@ -2377,10 +2377,10 @@ Homepage: https://packages.debian.org/debianutils
 Priority: extra
 Section: main
 Filename: pool/main/d/debianutils/debianutils_4.11.2_aarch64.deb
-Size: 18270
-SHA256: 9882f4fc8e6bb859414463c37c7668b2370e1b07a477a11db6d36f65d69447fc
-SHA1: 5c73d45908dbebd216453db01b012ad74861b6dc
-MD5sum: af80e7b9c4c6e90f976ff1f861b05008
+Size: 18272
+SHA256: dca34000a8ea31870e8aab3059014a36dbcebe1e77abd808cc7fe537b2b0e1c2
+SHA1: c416ced3fe47aaa1183e3b335dc5779ee04c012a
+MD5sum: 89af675d337a92894317c6366bbb35be
 Description: Small utilities which are used primarily by the installation scripts of Debian packages
 
 Package: debootstrap
@@ -7824,10 +7824,10 @@ Replaces: libcrypt-dev
 Priority: extra
 Section: main
 Filename: pool/main/libc/libcrypt/libcrypt_0.2-3_aarch64.deb
-Size: 8574
-SHA256: ee708051ab80b0cf5b1c897b092578e169b0818217143aef496d8157e1d3892a
-SHA1: 09f8056fa58754fd194d1973dddb401308771c47
-MD5sum: 6b75c4fe57cff1406c03a809bdb81f33
+Size: 8568
+SHA256: bee41dd8bc09a7f99f0537d77cfb403512c2f170f7ff6635a3bc9e47ac02e372
+SHA1: 1fa76a307b21b9cdfd365e0d12350fe8496c59c0
+MD5sum: 8bb465a508d54596a1c3c21288a72703
 Description: A crypt(3) implementation
 
 Package: libcue
@@ -13897,10 +13897,10 @@ Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Priority: extra
 Section: main
 Filename: pool/main/n/ncurses/ncurses_6.2.20200725-2_aarch64.deb
-Size: 493196
-SHA256: 6f6bf4ef25153004d39065562a9d12cded6a8e5ba439e45172fb1cededae2f2a
-SHA1: ad7a4ce0006cdca48f40294ef66e8637c325d48f
-MD5sum: 4e222b802dc0962dc184268df883e5cb
+Size: 492596
+SHA256: 74d698d28695060e5eb3c95845fd7514a4e5f8a0e08b0c248352d5c459d8198b
+SHA1: 39909d028fd7a41f64b6376415a964e4d8675c7e
+MD5sum: cacc4897755d7ee7554c6f8915182a62
 Description: Library for text-based user interfaces in a terminal-independent manner
 
 Package: ncurses-static
@@ -13913,10 +13913,10 @@ Depends: ncurses (= 6.2.20200725-2)
 Priority: extra
 Section: main
 Filename: pool/main/n/ncurses-static/ncurses-static_6.2.20200725-2_aarch64.deb
-Size: 142162
-SHA256: dc0267258ba6bf7fe72669cb309d669265d6de4c6a8716de9e3a052c71cf391c
-SHA1: 9678f84cad722259d5aeb7ac676eabdf8d64aa6e
-MD5sum: c6f8102bc4ec944a46ea11028a5e8913
+Size: 142174
+SHA256: de22a6062d82771deec19d0a434f8a00c42fcbe0bf48cc1cf53420b82f5e813f
+SHA1: 3811e48857e6f15a1dea528094fa0cdb3f3dd5c7
+MD5sum: de026c106501fa17f913c14f9294638e
 Description: Static libraries for ncurses
 
 Package: ncurses-ui-libs
@@ -13929,10 +13929,10 @@ Depends: ncurses (= 6.2.20200725-2)
 Priority: extra
 Section: main
 Filename: pool/main/n/ncurses-ui-libs/ncurses-ui-libs_6.2.20200725-2_aarch64.deb
-Size: 29340
-SHA256: 3cf051ee364ef7cf7acd846593484d76da7b24d20dcc62afe41e00555c31d7a5
-SHA1: 9115ebccb835a285cda7c7dba063be7238b3e221
-MD5sum: dc99833162026f32fee26235ac0b3888
+Size: 29304
+SHA256: d8545d43968a3cb0b0adfb76831fbbf226e520228a74ec35bc4a6187b662304a
+SHA1: 076345b4b520174d623bcf5acc8d318a85190613
+MD5sum: 540bda7d69944dd55e04965ac949738b
 Description: Libraries for terminal user interfaces based on ncurses
 
 Package: ncurses-ui-libs-static
@@ -13945,10 +13945,10 @@ Depends: ncurses (= 6.2.20200725-2)
 Priority: extra
 Section: main
 Filename: pool/main/n/ncurses-ui-libs-static/ncurses-ui-libs-static_6.2.20200725-2_aarch64.deb
-Size: 36808
-SHA256: 169f9115b826d53a7928a2cf95067e5cbf2a8db014c1a8384ed7458c1230dc01
-SHA1: ad6fa978bd79a2d06a24949467d0b003282c8cb3
-MD5sum: 501287cbfa384536970366e9a1ba05a5
+Size: 36764
+SHA256: 472358b57a5a44be0a2e8b481c86adef307926cee229b5af9bd3ca51f1f80c2a
+SHA1: be905eac22e123aaf25c6d42b8d8479930fc438a
+MD5sum: f8445e0959e19fb0e777979a4ad322e1
 Description: Static libraries for terminal user interfaces based on ncurses
 
 Package: ncurses-utils
@@ -13961,10 +13961,10 @@ Depends: ncurses (= 6.2.20200725-2)
 Priority: extra
 Section: main
 Filename: pool/main/n/ncurses-utils/ncurses-utils_6.2.20200725-2_aarch64.deb
-Size: 80678
-SHA256: 3a21bfcbbf1632414eccd6be910369774bc353e971620b1da4a6655167282d5b
-SHA1: 68a3aaa5a986baedb90f91f660975d2b794e7897
-MD5sum: b6bcddfcab270312bcb53729bdbd94cf
+Size: 80228
+SHA256: a1b54ce02000694b2edba1c2f9aa1cc1293fb9cbfa4319b3ebd616421f18fbcb
+SHA1: 10f95edb2e378018adbe6d26166089b4c715b494
+MD5sum: d0806a46efb2be7c011e9f129871ec9e
 Description: Tools for working with terminals
 
 Package: ndk-multilib
@@ -14654,10 +14654,10 @@ Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
 Priority: extra
 Section: main
 Filename: pool/main/o/openssl/openssl_1.1.1k-2_aarch64.deb
-Size: 1151986
-SHA256: 7df878d714dc1099899cfdc698b468bf91628c4ee0c64d8f7a509391e591f3c6
-SHA1: a46fcb20930794bb1df672f6ee4765c7777b74a8
-MD5sum: 84a2a58941c373417ea65c0a8e43d7d8
+Size: 1153548
+SHA256: 1881dbd7d27e3c37940f2cd38880d5c226097abfcfbabe4b2b2b6b5701680171
+SHA1: 9169ea620f1b73c6250f0126225e81321ee0f361
+MD5sum: 57b6c1577672a8fe268d2e2548ae5e7e
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
 Package: openssl-static
@@ -14670,10 +14670,10 @@ Depends: openssl (= 1.1.1k-2)
 Priority: extra
 Section: main
 Filename: pool/main/o/openssl-static/openssl-static_1.1.1k-2_aarch64.deb
-Size: 1173912
-SHA256: fb6c28df61e83d4115f7d4ddef57d20792967c31161aab826ac2bea48d6bc619
-SHA1: be19f09ba0443d73053fa327a4442afd94bae5ad
-MD5sum: 00d6734f9c88b6b7510cc65a041531bc
+Size: 1173868
+SHA256: 2c4e0370ac2ddea24a7ad0d8968bf245f3e1d9041a058249fde583694d4aee10
+SHA1: 901a9c2a0268be6e01fd2b0fd11b170fe95946fa
+MD5sum: 716af0d5863fe6286e7ed688b9c8a17e
 Description: Static libraries for openssl
 
 Package: openssl-tool
@@ -14686,10 +14686,10 @@ Depends: openssl (= 1.1.1k-2)
 Priority: extra
 Section: main
 Filename: pool/main/o/openssl-tool/openssl-tool_1.1.1k-2_aarch64.deb
-Size: 187094
-SHA256: a6dfa7a5536042ba8f8c3e66c012c02ad626e46d58f56a100410f7f836d81fe0
-SHA1: c63f75b1f8eade722d40eb71e8242ef30cd211bf
-MD5sum: 872e83da5eec4cb6c8f24280abd8aec3
+Size: 187054
+SHA256: 6124536d85a2ea22e24c8a022f7e1591483f4e3d080626a95b0a1624d1b19df9
+SHA1: 482bcd084d9ec622fa3c300675fe0fbf5530c83c
+MD5sum: e40eb70c191e06875feef0e918b74ee0
 Description: The openssl command line cryptographic tool
 
 Package: optipng
@@ -19067,7 +19067,7 @@ Description: Tool for decoding, encoding and debugging unicode
 
 Package: util-linux
 Architecture: aarch64
-Installed-Size: 3524
+Installed-Size: 3460
 Maintainer: @termux
 Version: 2.36.1
 Homepage: https://en.wikipedia.org/wiki/Util-linux
@@ -19078,10 +19078,10 @@ Replaces: util-linux-dev
 Priority: extra
 Section: main
 Filename: pool/main/u/util-linux/util-linux_2.36.1_aarch64.deb
-Size: 595854
-SHA256: 3afdef77afb6c6774b0262a7ae62cff57d9493564ef12e065e77cc999581f138
-SHA1: b08226a360146f7328df5f74a0cbecd08e7b266b
-MD5sum: ff626d119ac78b9c17105d3c3792848f
+Size: 586300
+SHA256: 527eaa0e2a96015853a0654fc3aa7c2c6507c9f42cfb20fe144078d1880cff20
+SHA1: 6ca0dc61fbdf36bf232f274f520fcfc3b5f87640
+MD5sum: c0e478faff00536d682e5d042726eb28
 Description: Miscellaneous system utilities
 
 Package: util-linux-static
@@ -19094,10 +19094,10 @@ Depends: util-linux (= 2.36.1)
 Priority: extra
 Section: main
 Filename: pool/main/u/util-linux-static/util-linux-static_2.36.1_aarch64.deb
-Size: 161162
-SHA256: c47bbc455b819168288bc30e4aded63b0b906a3c26bd5165f92eeed5740925f6
-SHA1: 9b4e87db8f7b1d868d1a58cd12768b87ea8b4fbd
-MD5sum: 6fc844348831e93f5d05a9dbe575f890
+Size: 161106
+SHA256: 61822ea63f19211730b0b5a506784e2670f5f49e651d2cd9d431b8ff3e2bda01
+SHA1: 2efdbd595fbce7655ba2e50507a93d5c6aeffac5
+MD5sum: f6ee423c39ea1687d53ae65f6f2ca487
 Description: Static libraries for util-linux
 
 Package: uucp
@@ -20127,10 +20127,10 @@ Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Priority: extra
 Section: main
 Filename: pool/main/z/zlib/zlib_1.2.11-5_aarch64.deb
-Size: 65362
-SHA256: afe41c689108d473a886f666093d8569cd6d6c31e71f6ecdced813da9a908b88
-SHA1: 84aee1518877c59d7c9bd6be9088b0310a054ddb
-MD5sum: dab1f3d5c7d0f6696cfa710d73bd8fb4
+Size: 65392
+SHA256: cca1a3e3faf90fbcc55a825511e248a8dbedbebcb4581e1418d42103439881cc
+SHA1: 446b43efe4534d73bb23deb368ac0e1c45db7b0c
+MD5sum: f15317e6f47471847c7b7894369d4c2b
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 
 Package: zlib-static
@@ -20143,10 +20143,10 @@ Depends: zlib (= 1.2.11-5)
 Priority: extra
 Section: main
 Filename: pool/main/z/zlib-static/zlib-static_1.2.11-5_aarch64.deb
-Size: 40370
-SHA256: ebe64e8c00482b8db618fb6da42f8055f4413e3eac9042f7b9f7451322c44acb
-SHA1: f28f281f61ae5d1c01467a992d5354124d18590a
-MD5sum: eb3c5af0915d5622479bd431e1c8dae6
+Size: 40336
+SHA256: a3adb029bc7ebcd4cfc58fc654706ca2f144e0226c0bfd1dde2181bafdb85967
+SHA1: 2e1b39135d987639ebf159871408e9c305162399
+MD5sum: eeff321ae2694b08c40e490793903a60
 Description: Static libraries for zlib
 
 Package: zopfli

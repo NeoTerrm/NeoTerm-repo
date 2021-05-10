@@ -281,10 +281,10 @@ Homepage: https://curl.se/docs/caextract.html
 Priority: extra
 Section: main
 Filename: pool/main/c/ca-certificates/ca-certificates_20210413-2_all.deb
-Size: 113370
-SHA256: 65ff673f6d7fc2e9ff131564276c56d6d5922af92c53afc788ac69bac69c4ac2
-SHA1: 414fd463395c5549c53902ad09e324209a065d78
-MD5sum: 2d9a4fd19ccc9b7dc280abad82a9a70e
+Size: 113376
+SHA256: f6b06ca9e96993fddb359ce0143f81994e0f42dc93eb14f687287c3f517a226b
+SHA1: 45409167ee8a41c17b34f81ef673abf2a095ab5d
+MD5sum: 147cf8a8cbff19fd36012e9e6306d0e9
 Description: Common CA certificates
 
 Package: ca-certificates-java
@@ -297,10 +297,10 @@ Depends: ca-certificates (= 20210413-2)
 Priority: extra
 Section: main
 Filename: pool/main/c/ca-certificates-java/ca-certificates-java_20210413-2_all.deb
-Size: 102974
-SHA256: cf02a6bcba707c37442906b8ac72c23058ffca1d35301d91b68060c73cf03735
-SHA1: 0dbc2812279b8688dd5d263920ef1bf7a28e5f14
-MD5sum: 8c1f9ae87ebc809c168e74128fa62053
+Size: 102952
+SHA256: 45620d9e8f192fde60eb57ed2400679acb3b5da3e872e3ee17b30ca5df88bd27
+SHA1: 3306aa0aeb5c73308d2cfb788bb282996cce9e9c
+MD5sum: 89de6bacdf4b1b61a58cf73200376a3e
 Description: Common CA certificates (java keystore format)
 
 Package: colordiff
