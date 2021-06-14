@@ -68,11 +68,11 @@ Description: Static libraries for apr-util
 
 Package: apt
 Architecture: aarch64
-Installed-Size: 3756
+Installed-Size: 3764
 Maintainer: @termux
-Version: 2.3.5
+Version: 2.3.5-1
 Homepage: https://packages.debian.org/apt
-Depends: coreutils, dpkg, findutils, gpgv, grep, libandroid-glob, libbz2, libc++, libcurl, libgnutls, liblz4, liblzma, sed, termux-licenses, xxhash, zlib
+Depends: coreutils, dpkg, findutils, gpgv, grep, libandroid-glob, libbz2, libc++, libcurl, libgnutls, liblz4, liblzma, sed, termux-licenses, xxhash, zlib, zstd
 Essential: yes
 Conflicts: apt-transport-https, libapt-pkg
 Recommends: game-repo, science-repo
@@ -80,43 +80,43 @@ Replaces: apt-transport-https, libapt-pkg
 Suggests: gnupg, unstable-repo, x11-repo
 Priority: extra
 Section: main
-Filename: pool/main/a/apt/apt_2.3.5_aarch64.deb
-Size: 992832
-SHA256: 7a6920dc457f94b50b038e5f4a8425376728a879a026e180da0cff1b12e01be4
-SHA1: e28ca28bd6cbdf9583b0a430522597c674921172
-MD5sum: 6035c56eb02b9f55b09a0077c060eb50
+Filename: pool/main/a/apt/apt_2.3.5-1_aarch64.deb
+Size: 993928
+SHA256: 50b9daf4883dfb14f50f5ccacc334b4e78fa7f924153865c8a31fb3d0da00a30
+SHA1: 17dc6891c8042bc5a4eebd2cc43b1c939c30ea42
+MD5sum: 80cf281425c5a6c225a9d0dc88d36bb2
 Description: Front-end for the dpkg package manager
 
 Package: apt-ftparchive
 Architecture: aarch64
 Installed-Size: 304
 Maintainer: @termux
-Version: 2.3.5
+Version: 2.3.5-1
 Homepage: https://packages.debian.org/apt
-Depends: libdb, apt (= 2.3.5)
+Depends: libdb, apt (= 2.3.5-1)
 Priority: extra
 Section: main
-Filename: pool/main/a/apt-ftparchive/apt-ftparchive_2.3.5_aarch64.deb
-Size: 89292
-SHA256: 9eae6339a4a2df3a616462e8576068b4c84fdf60c1dbbac15e6ef1935289d472
-SHA1: 2dd760a6253dbd7cc28cdc17d1f7a2f0fff68cb1
-MD5sum: 52a0796e8be5c64363f8896648648d1d
+Filename: pool/main/a/apt-ftparchive/apt-ftparchive_2.3.5-1_aarch64.deb
+Size: 89220
+SHA256: c0423294c00dbe077ee61047ee6abe436a1de8c135d92b2791c4a27439fbf91c
+SHA1: 7a4f90aaaf85628220b11da11e6808d30d053802
+MD5sum: 8295ada8bfbebc8adbe8485db1da8145
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 
 Package: apt-transport-tor
 Architecture: all
 Installed-Size: 36
 Maintainer: @termux
-Version: 2.3.5
+Version: 2.3.5-1
 Homepage: https://packages.debian.org/apt
-Depends: tor, apt (= 2.3.5)
+Depends: tor, apt (= 2.3.5-1)
 Priority: extra
 Section: main
-Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.3.5_all.deb
-Size: 826
-SHA256: 97f6f7bd84bcc4cebd6dbf9bf404f859191536e70471e5bf3fb4589767429815
-SHA1: b6433d5411f0881c68bd5f5c82b170b8f154cb98
-MD5sum: 2d6dc84b170a10ae37cad4a9acb8913c
+Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.3.5-1_all.deb
+Size: 828
+SHA256: c25dcb8aad2a0e149053315ce91383025277dbab61fc1cad554d8db4cefd7114
+SHA1: 2077e096d18d4cd2e540dfcf82982b0a1fbb31d8
+MD5sum: 7b54de0b49337ea1bf67e28170a2e69c
 Description: APT transport for anonymous package downloads via Tor
 
 Package: autoconf
@@ -155,20 +155,20 @@ Package: bash
 Architecture: aarch64
 Installed-Size: 4036
 Maintainer: @termux
-Version: 5.1.8
+Version: 5.1.8-1
 Homepage: https://www.gnu.org/software/bash/
 Breaks: bash-dev
-Depends: libandroid-support, libiconv, ncurses, readline (>= 8.0), termux-tools
+Depends: libandroid-support, libiconv, ncurses, readline (>= 8.0), termux-tools, libbsd
 Essential: yes
 Recommends: command-not-found
 Replaces: bash-dev
 Priority: extra
 Section: main
-Filename: pool/main/b/bash/bash_5.1.8_aarch64.deb
-Size: 826096
-SHA256: 110b51f4f7d1aea272e73ad18c0dfacf9ef88f1f2abc341f685652b0d03ae9c0
-SHA1: 2cc7b3fd83d27546efb2287f9b6e02d21cb1152b
-MD5sum: ff54aadf09598175efd94de4e00cd2bc
+Filename: pool/main/b/bash/bash_5.1.8-1_aarch64.deb
+Size: 826130
+SHA256: 42d308920dd5b65e77d95af3f85b654b06f7e68571d2eab32a4104c03d155e97
+SHA1: 6a05f1693c594a292c70d34d5cc71b40a6535877
+MD5sum: 80fc209c80d957ef77cf11eab593e38e
 Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
 
 Package: bc
@@ -1220,6 +1220,39 @@ SHA256: 135acefa0ca197eb0b3145034c4f32fe4037e0f10c2b726c489cb0d5f554a612
 SHA1: fa2213b2697465a699df85ec33a4a4e25028529e
 MD5sum: ae4fe7694949a2f75b06b8844328bc73
 Description: Static libraries for libassuan
+
+Package: libbsd
+Architecture: aarch64
+Installed-Size: 1244
+Maintainer: @termux
+Version: 0.10.0-1
+Homepage: https://libbsd.freedesktop.org
+Breaks: libbsd-dev
+Replaces: libbsd-dev
+Priority: extra
+Section: main
+Filename: pool/main/libb/libbsd/libbsd_0.10.0-1_aarch64.deb
+Size: 148834
+SHA256: 833d5ce1dd00988e8890bb05a394ed9cd0cb0d810b7f1ec9ff5ae1e4e3596561
+SHA1: 4a513747914f20a2c84633a84e8798075ad9c534
+MD5sum: e20c2f6bfd9003ff114db69dc2b3fb93
+Description: utility functions from BSD systems
+
+Package: libbsd-static
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: @termux
+Version: 0.10.0-1
+Homepage: https://libbsd.freedesktop.org
+Depends: libbsd (= 0.10.0-1)
+Priority: extra
+Section: main
+Filename: pool/main/libb/libbsd-static/libbsd-static_0.10.0-1_aarch64.deb
+Size: 34982
+SHA256: a418401dbdacd6382d59943170034fb5e44034003c87675b1700794a0e90c5ed
+SHA1: ca13a1b418d893e20e56e1559b55a6aec9d4c0bf
+MD5sum: 15916daff2b743eeec0dd61e47218a79
+Description: Static libraries for libbsd
 
 Package: libbz2
 Architecture: aarch64
@@ -4107,4 +4140,38 @@ SHA256: 6158490bf56eafd41c45de01e84f063ad37bb501f0aefe5943c020fab739d38f
 SHA1: 681a4e5327d1d914651a6e370f64dc64f29b52b8
 MD5sum: 63f9ec2f87e6631380b4b28fea80f205
 Description: Shell with lots of features
+
+Package: zstd
+Architecture: aarch64
+Installed-Size: 1544
+Maintainer: @termux
+Version: 1.4.9-1
+Homepage: https://github.com/facebook/zstd
+Breaks: zstd-dev
+Depends: liblzma, zlib
+Replaces: zstd-dev
+Priority: extra
+Section: main
+Filename: pool/main/z/zstd/zstd_1.4.9-1_aarch64.deb
+Size: 456640
+SHA256: 383382464fc2b76b051560ea7cfe27bdb25900fb7cb9fcdd1417d75fdbf9fb86
+SHA1: 22f4ab0cd14ce25272c4096a753df5f2f6b8f85a
+MD5sum: 7d9f91fb9321916d85ec28a361827a2c
+Description: Zstandard compression.
+
+Package: zstd-static
+Architecture: aarch64
+Installed-Size: 1004
+Maintainer: @termux
+Version: 1.4.9-1
+Homepage: https://github.com/facebook/zstd
+Depends: zstd (= 1.4.9-1)
+Priority: extra
+Section: main
+Filename: pool/main/z/zstd-static/zstd-static_1.4.9-1_aarch64.deb
+Size: 262286
+SHA256: 35bc88086d16131c36274e47dca08625529739a00df469e558ec3914ac7608c3
+SHA1: dcc5176e1229adb1043d795558475dbff5bb013f
+MD5sum: 8d1f4569e5fd57fc481101ee24e53cc4
+Description: Static libraries for zstd
 

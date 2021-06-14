@@ -2,16 +2,16 @@ Package: apt-transport-tor
 Architecture: all
 Installed-Size: 36
 Maintainer: @termux
-Version: 2.3.5
+Version: 2.3.5-1
 Homepage: https://packages.debian.org/apt
-Depends: tor, apt (= 2.3.5)
+Depends: tor, apt (= 2.3.5-1)
 Priority: extra
 Section: main
-Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.3.5_all.deb
-Size: 826
-SHA256: 97f6f7bd84bcc4cebd6dbf9bf404f859191536e70471e5bf3fb4589767429815
-SHA1: b6433d5411f0881c68bd5f5c82b170b8f154cb98
-MD5sum: 2d6dc84b170a10ae37cad4a9acb8913c
+Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.3.5-1_all.deb
+Size: 828
+SHA256: c25dcb8aad2a0e149053315ce91383025277dbab61fc1cad554d8db4cefd7114
+SHA1: 2077e096d18d4cd2e540dfcf82982b0a1fbb31d8
+MD5sum: 7b54de0b49337ea1bf67e28170a2e69c
 Description: APT transport for anonymous package downloads via Tor
 
 Package: autoconf
