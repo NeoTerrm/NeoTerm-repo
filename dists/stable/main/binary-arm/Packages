@@ -2,47 +2,97 @@ Package: apt-transport-tor
 Architecture: all
 Installed-Size: 36
 Maintainer: @termux
-Version: 2.2.2
+Version: 2.3.5
 Homepage: https://packages.debian.org/apt
-Depends: tor, apt (= 2.2.2)
+Depends: tor, apt (= 2.3.5)
 Priority: extra
 Section: main
-Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.2.2_all.deb
-Size: 830
-SHA256: 0d6612f9254450143fff98d237ea64564955025e704a6126fd3a898412883d48
-SHA1: 08117e57a0a59165c657189219874e58599d848f
-MD5sum: ac8022fb86ea65cade7b089a1890dd18
+Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.3.5_all.deb
+Size: 826
+SHA256: 97f6f7bd84bcc4cebd6dbf9bf404f859191536e70471e5bf3fb4589767429815
+SHA1: b6433d5411f0881c68bd5f5c82b170b8f154cb98
+MD5sum: 2d6dc84b170a10ae37cad4a9acb8913c
 Description: APT transport for anonymous package downloads via Tor
+
+Package: autoconf
+Architecture: all
+Installed-Size: 3604
+Maintainer: @termux
+Version: 2.71
+Homepage: https://www.gnu.org/software/autoconf/autoconf.html
+Depends: m4, make, perl
+Priority: extra
+Section: main
+Filename: pool/main/a/autoconf/autoconf_2.71_all.deb
+Size: 609212
+SHA256: c5b054a8acac73f24f0a00920dd84562534a6b00505c9af4b1b1c01d0b0a0843
+SHA1: 124263c29a6f49a5d14f4b9112a5998d26e09046
+MD5sum: 9a22412c00fe259220c027af77a0fdcb
+Description: Creator of shell scripts to configure source code packages
+
+Package: automake
+Architecture: all
+Installed-Size: 2744
+Maintainer: @termux
+Version: 1.16.3-1
+Homepage: https://www.gnu.org/software/automake/
+Depends: autoconf
+Priority: extra
+Section: main
+Filename: pool/main/a/automake/automake_1.16.3-1_all.deb
+Size: 552216
+SHA256: 7e47f24bbe0df976177b3fcc50b38c7b669395a919cd0f1f14e4eab50c4e42a1
+SHA1: 77a1a7f408131d06ffb1184ae59260557f83eadf
+MD5sum: 818af0644bba3dcec0207a292cef4344
+Description: Tool for automatically generating Makefile.in files
+
+Package: build-essential
+Architecture: all
+Installed-Size: 4
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 4.1
+Homepage: https://github.com/termux/termux-packages
+Depends: clang, make, pkg-config
+Recommends: autoconf, automake, bc, bison, cmake, flex, gperf, libtool, m4
+Suggests: git, golang, nodejs, patchelf, proot, python, ruby, rust, subversion
+Priority: extra
+Section: main
+Filename: pool/main/b/build-essential/build-essential_4.1_all.deb
+Size: 802
+SHA256: e3bcbf78c1070b273d511d0499e55d1a8f47dad5019eee7481853522d28d6cd8
+SHA1: 48f95a0bc0c6a2639cf3e83445c298e9e70b6028
+MD5sum: 8249b8ad5583e3fe803630fc64f3f1c5
+Description: A metapackage that installs essential development tools
 
 Package: ca-certificates
 Architecture: all
-Installed-Size: 248
+Installed-Size: 244
 Maintainer: @termux
-Version: 20210413-2
+Version: 20210525
 Homepage: https://curl.se/docs/caextract.html
 Priority: extra
 Section: main
-Filename: pool/main/c/ca-certificates/ca-certificates_20210413-2_all.deb
-Size: 113380
-SHA256: 7264038b0e79e584b5619d9f65234c17cef887749c6166604797b315ede9e8aa
-SHA1: 6a6a918605dbe018e8cf4a3dc4a37f5f634c54c5
-MD5sum: d3fec32592d54538ef7d8dcbc0f04ffd
+Filename: pool/main/c/ca-certificates/ca-certificates_20210525_all.deb
+Size: 110534
+SHA256: 0e2cc76ebb4b980d1c02252fcf24fb0bf4e5a3237fa3010b8bafd67f99eb2c5d
+SHA1: 163d5c5c2a92d4fa1ff594d41ddb5de68364e189
+MD5sum: e46acf8bc03cfcf5fbfe8982e995d8f3
 Description: Common CA certificates
 
 Package: ca-certificates-java
 Architecture: all
-Installed-Size: 196
+Installed-Size: 192
 Maintainer: @termux
-Version: 20210413-2
+Version: 20210525
 Homepage: https://curl.se/docs/caextract.html
-Depends: ca-certificates (= 20210413-2)
+Depends: ca-certificates (= 20210525)
 Priority: extra
 Section: main
-Filename: pool/main/c/ca-certificates-java/ca-certificates-java_20210413-2_all.deb
-Size: 103026
-SHA256: c117946e0a914936553c90bbfe4a822ee39e8acb166e90747553aa1e025011b4
-SHA1: 14d1f00bbd6fe97f4b72956afe3643ace7af4b0b
-MD5sum: ce10bbd1395feea0d6bbed24c16258e9
+Filename: pool/main/c/ca-certificates-java/ca-certificates-java_20210525_all.deb
+Size: 100524
+SHA256: 17ddcc4d7ac9470acafd170bcd406c330c9cf1a9006aa8d59d751b9dac325745
+SHA1: 3788f8d0056c5b2d31fa2c5552a1490c4d63ce35
+MD5sum: 0981e2c767bfd44df88e11f8164da291
 Description: Common CA certificates (java keystore format)
 
 Package: proot-distro
@@ -55,42 +105,42 @@ Depends: bash, bzip2, coreutils, curl, findutils, gzip, ncurses-utils, proot (>=
 Priority: extra
 Section: main
 Filename: pool/main/p/proot-distro/proot-distro_1.6.2_all.deb
-Size: 16402
-SHA256: a3209099e1bfded3b659ab5f186a569f21cd6f81d85541bc6baedbe111f7d442
-SHA1: 23c8a4be6941e9e753ce6768ee722fe25b9fb8ac
-MD5sum: d897078b3366f961a3180617280d85d1
+Size: 16350
+SHA256: edca7535e02bd0e2754ac1da536ef4c3da820a640ad2726166bf90e03bcc6f99
+SHA1: 5a55cabe94ee53d2faff9701b2c00c0084958677
+MD5sum: beeee4232cbf28677ac5bd7ebe959c1f
 Description: Termux official utility for managing proot'ed Linux distributions
 
 Package: ruby-ri
 Architecture: all
 Installed-Size: 55084
 Maintainer: @termux
-Version: 3.0.1
+Version: 3.0.1-1
 Homepage: https://www.ruby-lang.org/
-Depends: ruby (= 3.0.1)
+Depends: ruby (= 3.0.1-1)
 Priority: extra
 Section: main
-Filename: pool/main/r/ruby-ri/ruby-ri_3.0.1_all.deb
-Size: 1582876
-SHA256: e43801596d49b11f3b8cc1839e2d32f38cf9e383bc6309cb85690437310a299d
-SHA1: 7b53f1d3e6457cf589137864bb3c50c0a5df6fb7
-MD5sum: 15d06f1c4601b5470ef318ac43ff5e7c
+Filename: pool/main/r/ruby-ri/ruby-ri_3.0.1-1_all.deb
+Size: 1567980
+SHA256: e8f7468eb0ae3d25db4752290c817030b87c95cb8ca77ebc4f8454d9d21c898c
+SHA1: 7b6b1993311810d334a5ca18646fb750d97887ed
+MD5sum: db0fc86b410391a8f9d4cdb8f0ab7c4b
 Description: Ruby documentation index
 
 Package: rust-std-wasm32
 Architecture: all
-Installed-Size: 60124
+Installed-Size: 59172
 Maintainer: Kevin Cotugno @kcotugno
-Version: 1.51.0-3
+Version: 1.52.1
 Homepage: https://www.rust-lang.org/
-Depends: rust (= 1.51.0-3)
+Depends: rust (= 1.52.1)
 Priority: extra
 Section: main
-Filename: pool/main/r/rust-std-wasm32/rust-std-wasm32_1.51.0-3_all.deb
-Size: 12765572
-SHA256: 28a87ad4c963879a2a0d9fdc040f2de46fe706ea9c9517160989c9d9aa4d0797
-SHA1: 23dd3869b82e96cb94092deeac17a3f2672769cf
-MD5sum: bedfe648fd7731b63492c54cd5b72deb
+Filename: pool/main/r/rust-std-wasm32/rust-std-wasm32_1.52.1_all.deb
+Size: 11978074
+SHA256: b3a9d516f742aa92c70161fba42cdeeabc32e0b2faf026d10d02d8ef8f16b1f5
+SHA1: 0cbcc8518b71916eead6a463465d4ec918531a75
+MD5sum: 575e300a0b0fe55668599e7df36d8bd6
 Description: rust std for wasm32-unknown-unknown target
 
 Package: termux-licenses
@@ -103,10 +153,10 @@ Essential: yes
 Priority: extra
 Section: main
 Filename: pool/main/t/termux-licenses/termux-licenses_2.0-1_all.deb
-Size: 52168
-SHA256: 7c08786552806b3e636a7d5e00559b2225eb205eba468f1844c8f567057f4c98
-SHA1: dab717ba78540f443ed310b0886e3b17bd25e327
-MD5sum: 9fcf9342492f9b1109f17025b596303f
+Size: 52120
+SHA256: faec9d708e69de71cea322baa8137c5d9d09b09c3a127e0303154f62ccedb9d3
+SHA1: d1c786eb90a136180bfbd460ab8c07a8a59ac402
+MD5sum: 369597da97e3372f0208cd16e0af602f
 Description: Contains LICENSE files for common licenses
 
 Package: termux-tools
@@ -123,10 +173,10 @@ Suggests: termux-api
 Priority: extra
 Section: main
 Filename: pool/main/t/termux-tools/termux-tools_0.119_all.deb
-Size: 13958
-SHA256: e93b41fc95aab73e2be60603c8918d5bb32b794b41ada5299ca433e60a051e7f
-SHA1: 592cdb9448299b5af97582e0384cbac3b365aaa2
-MD5sum: 5b1e481b1132328a0ac7d713fe37c984
+Size: 13926
+SHA256: 2b15a7fb5d3a6332af8ba47c460aa614fd4d95e9eaf2d925a92b70455c57be8e
+SHA1: 91450e9465e5bb5803224d6374fe99f3350c5777
+MD5sum: fc9ba6165f1f8e03dc3ba418f8155d90
 Description: Basic system tools for Termux
 
 Package: ttf-dejavu
@@ -138,10 +188,10 @@ Homepage: https://dejavu-fonts.github.io/
 Priority: extra
 Section: main
 Filename: pool/main/t/ttf-dejavu/ttf-dejavu_2.37-8_all.deb
-Size: 2473062
-SHA256: ec0da089753fe6a9cc7d8287235ed172c41875c895ba6a02095830bcbc0615d0
-SHA1: 4d62c75c4bf56216071491b1bcf1019187a1b41e
-MD5sum: e4ca9043fd08d313dd76db1043489029
+Size: 2543058
+SHA256: e37d9f5c994103ed528ca1e71e3e3f5b2d76f94ca27f44c0d6b597aeb59a8521
+SHA1: cdeb9425c349c1708a9974a12a5c0a87fc2455e3
+MD5sum: b5d3c45f8e1c67beb439c67d0ce92e3f
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
 
 Package: xcb-proto
@@ -155,10 +205,10 @@ Replaces: xcbproto
 Priority: extra
 Section: main
 Filename: pool/main/x/xcb-proto/xcb-proto_1.14.1_all.deb
-Size: 103118
-SHA256: d93fb90f4bcc29e3193f071b1fce6dec7a781a4d7ca3acfdd686050d24295707
-SHA1: 95387c97400219175c3b2f18486ad7aa4bc3d726
-MD5sum: 6fd6d1cf89868ee90daa0ce06ff345b4
+Size: 103374
+SHA256: 4fa5cba5d394eb031eb6282b071c22f36695be1bc98e0136a10cca9a241f5f26
+SHA1: 33772b8ac45d0d2c2b53e5188187e5a0e81df2d3
+MD5sum: e4465c866c479c1846b01a0b5141e951
 Description: XML-XCB protocol descriptions
 
 Package: xorg-util-macros
@@ -170,10 +220,10 @@ Homepage: https://xorg.freedesktop.org/
 Priority: extra
 Section: main
 Filename: pool/main/x/xorg-util-macros/xorg-util-macros_1.19.3_all.deb
-Size: 21858
-SHA256: ec68f9f120676dc4b358ef480e131aca679502f78483949b3f8dfe409d82e11b
-SHA1: 29cd6da5df6833dc2c820b4b8540aa1dd9e00945
-MD5sum: 56b8375c3cf12c5fcfc1c9e46166f8ea
+Size: 21760
+SHA256: f13d02b709e76e0aa993fd24211c0c5b9baf3ac0121b03dc6ea93b503ee489dc
+SHA1: 616b129950e78e90ba0ad67145ded5e82d9755ee
+MD5sum: 2229c90b48e8c8221967f39f099f1497
 Description: X.Org Autotools macros
 
 Package: xorgproto
@@ -188,10 +238,10 @@ Replaces: x11-proto
 Priority: extra
 Section: main
 Filename: pool/main/x/xorgproto/xorgproto_2020.1-1_all.deb
-Size: 176502
-SHA256: 124afa07a1ca7f3687bb1a81c9aa008b44decf0957c009cc0e3781413e6c12cc
-SHA1: 2e3cb5722b0d9057e0d940b561eac546ee9ebb70
-MD5sum: 567adb4dcae048a15084b48e1493e20d
+Size: 176214
+SHA256: f6822729c3424cf3a87fdd6b7edf79e186e47ed67f4a5fb49b54eff5680d7a9c
+SHA1: 7f98325288fa4930666b86bc0c84aaead3c3a5dd
+MD5sum: 7a3ba0d16b4ffb467b3e149b699f9f13
 Description: X.Org X11 Protocol headers
 
 Package: xtrans
@@ -203,9 +253,9 @@ Homepage: https://xorg.freedesktop.org/
 Priority: extra
 Section: main
 Filename: pool/main/x/xtrans/xtrans_1.4.0-8_all.deb
-Size: 43042
-SHA256: a3a0f8247abc42e8d20a93f22e604f8e9b731d35236d66a0768fa8cd04f15735
-SHA1: ce3f4676098727c5e8d619a96469fe3bbba8b625
-MD5sum: f135d999cac5d6caa483a8930365a52e
+Size: 43026
+SHA256: f4873ca63f7ac32a2b1b4b6d962fae0ce81e1904d5bea125a9db9105853b4528
+SHA1: 365e432e929c2f840dbd7cdee72acc98094fd876
+MD5sum: d291e3784d9d84fb2e2333b54a9edc3e
 Description: X transport library
 
